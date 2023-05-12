@@ -28,7 +28,6 @@ namespace Quiz_With_Passaparola_Theme
                         default:
                             return "Question not valid";
                     }
-                    
                 case 'B':
                     switch (cnt)
                     {
@@ -137,6 +136,66 @@ namespace Quiz_With_Passaparola_Theme
                         default:
                             return "Question not valid";
                     }
+                case 'K':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "In Greek mythology, who was the father of Zeus?"; // Kronos
+                        case 2:
+                            return "What does KFC stand for?"; // Kentucky Fried Chicken
+                        case 3:
+                            return "Who had hits with ‘Firework’ and ‘I Kissed a Girl’?"; //Katy Perry
+                        default:
+                            return "Question not valid";
+                    }
+                case 'L':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Jimmy Page formed which rock band?"; // Led Zeppelin 
+                        case 2:
+                            return "What is zero points in tennis known as?"; // Love
+                        case 3:
+                            return "What city do The Beatles come from?"; //Liverpool
+                        default:
+                            return "Question not valid";
+                    }
+                case 'M':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Which driver has won the most Formula 1 championships?"; // Michael Schumacher
+                        case 2:
+                            return "Which artist painted the ceiling of the Sistine Chapel in Rome?"; // Michelangelo
+                        case 3:
+                            return "Who gave the famous speech “I Have a Dream”?"; //Martin Luther
+                        default:
+                            return "Question not valid";
+                    }
+                case 'N':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Which southern Italian city is usually credited as the birthplace of the pizza?"; // Naples
+                        case 2:
+                            return "What language is spoken in Norway?"; // Norwegian
+                        case 3:
+                            return "The Animals formed in which UK city?"; //Newcastle
+                        default:
+                            return "Question not valid";
+                    }
+                case 'O':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "What is the capital of Canada?"; // Ottawa
+                        case 2:
+                            return "How many white balls are used to play snooker?"; // One
+                        case 3:
+                            return "What element does 'O' represent on the periodic table?"; //Oxygen
+                        default:
+                            return "Question not valid";
+                    }
                 case 'P':
                     switch (cnt)
                     {
@@ -146,6 +205,126 @@ namespace Quiz_With_Passaparola_Theme
                             return "What kind of word reads the same backwards and forwards?"; // Palindrome
                         case 3:
                             return "What is Batman’s butler called?"; //Pennyworth
+                        default:
+                            return "Question not valid";
+                    }
+                case 'Q':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Who directed Kill Bill: Volume 1? "; // Quentin Tarantino
+                        case 2:
+                            return "Which band sang “Bohemian Rhapsody”? "; // Queen
+                        case 3:
+                            return "Which football club plays its home games at Loftus Road?"; //Queen's Park Rangers
+                        default:
+                            return "Question not valid";
+                    }
+                case 'R':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Which colour pill does Neo swallow in The Matrix?"; // Red
+                        case 2:
+                            return "The capital of Iceland is?"; // Reykjavik
+                        case 3:
+                            return "In which city can you find the Colosseum?"; //Rome
+                        default:
+                            return "Question not valid";
+                    }
+                case 'S':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Which actor played Rocky? "; // Sylvester Stallone 
+                        case 2:
+                            return "Which sport is Michael Phelps known for?"; // Swimming
+                        case 3:
+                            return "What Netflix show had the most streaming views in 2021?"; //Squid Game
+                        default:
+                            return "Question not valid";
+                    }
+                case 'T':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Who played David Aames in Vanilla Sky?"; // Tom Cruise  
+                        case 2:
+                            return "What shape are Doritos?"; // Triangle
+                        case 3:
+                            return "Which character is often referred to with ‘Giantsbane’ in their name?"; //Tormund
+                        default:
+                            return "Question not valid";
+                    }
+                case 'U':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "What is the national animal of Scotland?"; // Unicorn  
+                        case 2:
+                            return "What does USB stand for?"; // Universal Serial Bus
+                        case 3:
+                            return "In what country is the Chernobyl nuclear plant located?"; //Ukraine
+                        default:
+                            return "Question not valid";
+                    }
+                case 'V':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Where is Angel Falls, the world’s largest waterfall, located?"; // Venezuela
+                        case 2:
+                            return "What car manufacturer had the highest revenue in 2020?"; // Volkswagen
+                        case 3:
+                            return "Café Terrace at Night is an 1888 oil painting by which Dutch master?"; //Vincent Van Gogh
+                        default:
+                            return "Question not valid";
+                    }
+                case 'W':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "What is the capital of New Zealand?"; // Wellington
+                        case 2:
+                            return "What’s the name of the cowboy in Toy Story?"; // Woody
+                        case 3:
+                            return "What happened between 1914 and 1919?"; // World War 1
+                        default:
+                            return "Question not valid";
+                    }
+                case 'X':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "x"; // x
+                        case 2:
+                            return "x"; // x
+                        case 3:
+                            return "x"; // x
+                        default:
+                            return "Question not valid";
+                    }
+                case 'Y':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "Aureolin is a shade of what color?"; // Yellow
+                        case 2:
+                            return "Aureolin is a shade of what color?"; // Yellow
+                        case 3:
+                            return "Aureolin is a shade of what color?"; // Yellow
+                        default:
+                            return "Question not valid";
+                    }
+                case 'Z':
+                    switch (cnt)
+                    {
+                        case 1:
+                            return "What is YouTuber Zoella's real name?"; // Zoe Sugg
+                        case 2:
+                            return "What is YouTuber Zoella's real name?"; // Zoe Sugg
+                        case 3:
+                            return "What is YouTuber Zoella's real name?"; // Zoe Sugg
                         default:
                             return "Question not valid";
                     }
@@ -179,8 +358,38 @@ namespace Quiz_With_Passaparola_Theme
                     return answers = new string[] { "Iago", "Irn-Bru", "Israel", "Answer not valid" };
                 case 'J':
                     return answers = new string[] { "Julianne Moore", "Jamie Murray", "Jeff Bezos", "Answer not valid" };
+                case 'K':
+                    return answers = new string[] { "Kronos", "Kentucky Fried Chicken", "Katy Perry", "Answer not valid" };
+                case 'L':
+                    return answers = new string[] { "Led Zeppelin ", "Love", "Liverpool", "Answer not valid" };
+                case 'M':
+                    return answers = new string[] { "Michael Schumacher", "Michelangelo", "Martin Luther", "Answer not valid" };
+                case 'N':
+                    return answers = new string[] { "Naples", "Norwegian", "Newcastle", "Answer not valid" };
+                case 'O':
+                    return answers = new string[] { "Ottawa", "One", "Oxygen", "Answer not valid" };
                 case 'P':
                     return answers = new string[] { "Peaky Blinders", "Palindrome", "Pennyworth", "Answer not valid" };
+                case 'Q':
+                    return answers = new string[] { "Quentin Tarantino", "Queen", "Queen's Park Rangers", "Answer not valid" };
+                case 'R':
+                    return answers = new string[] { "Red", "Reykjavik", "Rome", "Answer not valid" };
+                case 'S':
+                    return answers = new string[] { "Sylvester Stallone", "Swimming", "Squid Game", "Answer not valid" };
+                case 'T':
+                    return answers = new string[] { "Tom Cruise", "Triangle", "Tormund", "Answer not valid" };
+                case 'U':
+                    return answers = new string[] { "Unicorn", "Universal Serial Bus", "Ukraine", "Answer not valid" };
+                case 'V':
+                    return answers = new string[] { "Venezuela", "Volkswagen", "Vincent Van Gogh", "Answer not valid" };
+                case 'W':
+                    return answers = new string[] { "Wellington", "Woody", "World War 1", "Answer not valid" };
+                case 'X':
+                    return answers = new string[] { "x", "x", "x", "Answer not valid" };
+                case 'Y':
+                    return answers = new string[] { "Yellow", "Yellow", "Yellow", "Answer not valid" };
+                case 'Z':
+                    return answers = new string[] { "Zoe Sugg", "Zoe Sugg", "Zoe Sugg", "Answer not valid" };
                 default:
                     return answers = new string[] {"Answer not valid" };
             }

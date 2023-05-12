@@ -18,9 +18,15 @@ namespace Quiz_With_Passaparola_Theme
         {
             InitializeComponent();
         }
-        public int counter = 100;
+        public int counter = 300;
         public int questionNo=0, correct=0, incorrect=0;
         public string[] letters = new string[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            BtAlphabet.Text = "START !!";
+            DisableAll();
+        }
         private void BtAlphabet_Click(object sender, EventArgs e)
         {
             timer1 = new System.Windows.Forms.Timer();
@@ -28,6 +34,7 @@ namespace Quiz_With_Passaparola_Theme
             timer1.Interval = 1000; // 1 second
             timer1.Start();
             LblTimer.Text = counter.ToString();
+            EnableAll();
         }
 
         private void BtA_Click(object sender, EventArgs e)
@@ -135,6 +142,61 @@ namespace Quiz_With_Passaparola_Theme
             BtJ.Enabled = false;
             BtJ.BackColor = Color.Yellow;
         }
+        private void BtK_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 11;
+            LinkLblNextQue.Enabled = true;
+            BtK.Enabled = false;
+            BtK.BackColor = Color.Yellow;
+        }
+
+        private void BtL_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 12;
+            LinkLblNextQue.Enabled = true;
+            BtL.Enabled = false;
+            BtL.BackColor = Color.Yellow;
+        }
+
+        private void BtM_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 13;
+            LinkLblNextQue.Enabled = true;
+            BtM.Enabled = false;
+            BtM.BackColor = Color.Yellow;
+        }
+
+        private void BtN_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 14;
+            LinkLblNextQue.Enabled = true;
+            BtN.Enabled = false;
+            BtN.BackColor = Color.Yellow;
+
+        }
+
+        private void BtO_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 15;
+            LinkLblNextQue.Enabled = true;
+            BtO.Enabled = false;
+            BtO.BackColor = Color.Yellow;
+        }
         private void BtP_Click(object sender, EventArgs e)
         {
             GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
@@ -145,7 +207,115 @@ namespace Quiz_With_Passaparola_Theme
             BtP.Enabled = false;
             BtP.BackColor = Color.Yellow;
         }
+        private void BtQ_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 17;
+            LinkLblNextQue.Enabled = true;
+            BtQ.Enabled = false;
+            BtQ.BackColor = Color.Yellow;
+        }
 
+        private void BtR_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 18;
+            LinkLblNextQue.Enabled = true;
+            BtR.Enabled = false;
+            BtR.BackColor = Color.Yellow;
+        }
+
+        private void BtS_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 19;
+            LinkLblNextQue.Enabled = true;
+            BtS.Enabled = false;
+            BtS.BackColor = Color.Yellow;
+        }
+
+        private void BtT_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 20;
+            LinkLblNextQue.Enabled = true;
+            BtT.Enabled = false;
+            BtT.BackColor = Color.Yellow;
+        }
+
+        private void BtU_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 21;
+            LinkLblNextQue.Enabled = true;
+            BtU.Enabled = false;
+            BtU.BackColor = Color.Yellow;
+        }
+
+        private void BtV_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 22;
+            LinkLblNextQue.Enabled = true;
+            BtV.Enabled = false;
+            BtV.BackColor = Color.Yellow;
+        }
+
+        private void BtW_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 23;
+            LinkLblNextQue.Enabled = true;
+            BtW.Enabled = false;
+            BtW.BackColor = Color.Yellow;
+        }
+
+        private void BtX_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo =24;
+            LinkLblNextQue.Enabled = true;
+            BtX.Enabled = false;
+            BtX.BackColor = Color.Yellow;
+        }
+
+        private void BtY_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 25;
+            LinkLblNextQue.Enabled = true;
+            BtY.Enabled = false;
+            BtY.BackColor = Color.Yellow;
+        }
+
+        private void BtZ_Click(object sender, EventArgs e)
+        {
+            GetQuestionAndAnswer getQueAns = new GetQuestionAndAnswer();
+            var letter = sender.ToString().ToCharArray().Last();
+            RtbQuestion.Text = getQueAns.GetQue(letter).ToString();
+            questionNo = 26;
+            LinkLblNextQue.Enabled = true;
+            BtZ.Enabled = false;
+            BtZ.BackColor = Color.Yellow;
+        }
         public void Desicion(int questionNo,bool result)
         {
             switch (questionNo)
@@ -319,7 +489,7 @@ namespace Quiz_With_Passaparola_Theme
             bool result = false;
             foreach (string answer in answers)
             {
-                if (RtbAnswer.Text == answer)
+                if (RtbAnswer.Text.ToUpper() == answer.ToUpper())
                 {
                     result = true;
                     break;
@@ -338,8 +508,6 @@ namespace Quiz_With_Passaparola_Theme
             RtbAnswer.Text = "";
         }
 
-
-
         private void Timer1_Tick(object sender, EventArgs e)
         {
             counter--;
@@ -351,6 +519,38 @@ namespace Quiz_With_Passaparola_Theme
             }
                 
             LblTimer.Text = counter.ToString();
+        }
+        public void EnableAll()
+        {
+            BtA.Enabled = true;
+            BtB.Enabled = true;
+            BtC.Enabled = true;
+            BtD.Enabled = true;
+            BtE.Enabled = true;
+            BtF.Enabled = true;
+            BtG.Enabled = true;
+            BtH.Enabled = true;
+            BtI.Enabled = true;
+            BtJ.Enabled = true;
+            BtK.Enabled = true;
+            BtL.Enabled = true;
+            BtM.Enabled = true;
+            BtN.Enabled = true;
+            BtO.Enabled = true;
+            BtP.Enabled = true;
+            BtQ.Enabled = true;
+            BtR.Enabled = true;
+            BtS.Enabled = true;
+            BtT.Enabled = true;
+            BtU.Enabled = true;
+            BtV.Enabled = true;
+            BtW.Enabled = true;
+            BtX.Enabled = true;
+            BtY.Enabled = true;
+            BtZ.Enabled = true;
+            RtbQuestion.Enabled = true;
+            RtbAnswer.Enabled = true;
+            LinkLblNextQue.Enabled = true;
         }
         public void DisableAll()
         {
@@ -384,9 +584,6 @@ namespace Quiz_With_Passaparola_Theme
             RtbAnswer.Enabled = false;
             LinkLblNextQue.Enabled = false;
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            BtAlphabet.Text = "START !!";
-        }
+        
     }
 }

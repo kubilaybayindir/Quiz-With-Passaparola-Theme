@@ -182,6 +182,7 @@
             this.BtR.TabIndex = 18;
             this.BtR.Text = "R";
             this.BtR.UseVisualStyleBackColor = true;
+            this.BtR.Click += new System.EventHandler(this.BtR_Click);
             // 
             // BtS
             // 
@@ -193,6 +194,7 @@
             this.BtS.TabIndex = 19;
             this.BtS.Text = "S";
             this.BtS.UseVisualStyleBackColor = true;
+            this.BtS.Click += new System.EventHandler(this.BtS_Click);
             // 
             // BtT
             // 
@@ -204,6 +206,7 @@
             this.BtT.TabIndex = 20;
             this.BtT.Text = "T";
             this.BtT.UseVisualStyleBackColor = true;
+            this.BtT.Click += new System.EventHandler(this.BtT_Click);
             // 
             // BtU
             // 
@@ -215,6 +218,7 @@
             this.BtU.TabIndex = 21;
             this.BtU.Text = "U";
             this.BtU.UseVisualStyleBackColor = true;
+            this.BtU.Click += new System.EventHandler(this.BtU_Click);
             // 
             // BtM
             // 
@@ -226,6 +230,7 @@
             this.BtM.TabIndex = 13;
             this.BtM.Text = "M";
             this.BtM.UseVisualStyleBackColor = true;
+            this.BtM.Click += new System.EventHandler(this.BtM_Click);
             // 
             // BtN
             // 
@@ -237,6 +242,7 @@
             this.BtN.TabIndex = 14;
             this.BtN.Text = "N";
             this.BtN.UseVisualStyleBackColor = true;
+            this.BtN.Click += new System.EventHandler(this.BtN_Click);
             // 
             // BtQ
             // 
@@ -248,6 +254,7 @@
             this.BtQ.TabIndex = 17;
             this.BtQ.Text = "Q";
             this.BtQ.UseVisualStyleBackColor = true;
+            this.BtQ.Click += new System.EventHandler(this.BtQ_Click);
             // 
             // BtP
             // 
@@ -271,6 +278,7 @@
             this.BtK.TabIndex = 11;
             this.BtK.Text = "K";
             this.BtK.UseVisualStyleBackColor = true;
+            this.BtK.Click += new System.EventHandler(this.BtK_Click);
             // 
             // BtL
             // 
@@ -282,6 +290,7 @@
             this.BtL.TabIndex = 12;
             this.BtL.Text = "L";
             this.BtL.UseVisualStyleBackColor = true;
+            this.BtL.Click += new System.EventHandler(this.BtL_Click);
             // 
             // BtJ
             // 
@@ -317,6 +326,7 @@
             this.BtZ.TabIndex = 26;
             this.BtZ.Text = "Z";
             this.BtZ.UseVisualStyleBackColor = true;
+            this.BtZ.Click += new System.EventHandler(this.BtZ_Click);
             // 
             // BtY
             // 
@@ -328,6 +338,7 @@
             this.BtY.TabIndex = 25;
             this.BtY.Text = "Y";
             this.BtY.UseVisualStyleBackColor = true;
+            this.BtY.Click += new System.EventHandler(this.BtY_Click);
             // 
             // BtV
             // 
@@ -339,6 +350,7 @@
             this.BtV.TabIndex = 22;
             this.BtV.Text = "V";
             this.BtV.UseVisualStyleBackColor = true;
+            this.BtV.Click += new System.EventHandler(this.BtV_Click);
             // 
             // BtO
             // 
@@ -350,6 +362,7 @@
             this.BtO.TabIndex = 15;
             this.BtO.Text = "O";
             this.BtO.UseVisualStyleBackColor = true;
+            this.BtO.Click += new System.EventHandler(this.BtO_Click);
             // 
             // BtW
             // 
@@ -361,6 +374,7 @@
             this.BtW.TabIndex = 23;
             this.BtW.Text = "W";
             this.BtW.UseVisualStyleBackColor = true;
+            this.BtW.Click += new System.EventHandler(this.BtW_Click);
             // 
             // BtX
             // 
@@ -372,6 +386,7 @@
             this.BtX.TabIndex = 24;
             this.BtX.Text = "X";
             this.BtX.UseVisualStyleBackColor = true;
+            this.BtX.Click += new System.EventHandler(this.BtX_Click);
             // 
             // label1
             // 
@@ -386,10 +401,11 @@
             // RtbQuestion
             // 
             this.RtbQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RtbQuestion.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.RtbQuestion.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.RtbQuestion.Location = new System.Drawing.Point(3, 25);
             this.RtbQuestion.Name = "RtbQuestion";
-            this.RtbQuestion.Size = new System.Drawing.Size(541, 161);
+            this.RtbQuestion.ReadOnly = true;
+            this.RtbQuestion.Size = new System.Drawing.Size(485, 161);
             this.RtbQuestion.TabIndex = 27;
             this.RtbQuestion.Text = "";
             // 
@@ -409,7 +425,7 @@
             this.groupBox1.Controls.Add(this.RtbQuestion);
             this.groupBox1.Location = new System.Drawing.Point(555, 62);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(547, 189);
+            this.groupBox1.Size = new System.Drawing.Size(491, 189);
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
@@ -418,17 +434,17 @@
             this.groupBox2.Controls.Add(this.RtbAnswer);
             this.groupBox2.Location = new System.Drawing.Point(558, 246);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(544, 138);
+            this.groupBox2.Size = new System.Drawing.Size(488, 138);
             this.groupBox2.TabIndex = 30;
             this.groupBox2.TabStop = false;
             // 
             // RtbAnswer
             // 
             this.RtbAnswer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RtbAnswer.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.RtbAnswer.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.RtbAnswer.Location = new System.Drawing.Point(3, 25);
             this.RtbAnswer.Name = "RtbAnswer";
-            this.RtbAnswer.Size = new System.Drawing.Size(538, 110);
+            this.RtbAnswer.Size = new System.Drawing.Size(482, 110);
             this.RtbAnswer.TabIndex = 0;
             this.RtbAnswer.Text = "";
             // 
@@ -442,9 +458,9 @@
             this.LblTimer.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.LblTimer.Location = new System.Drawing.Point(85, 17);
             this.LblTimer.Name = "LblTimer";
-            this.LblTimer.Size = new System.Drawing.Size(42, 25);
+            this.LblTimer.Size = new System.Drawing.Size(45, 25);
             this.LblTimer.TabIndex = 31;
-            this.LblTimer.Text = "100";
+            this.LblTimer.Text = "300";
             // 
             // groupBox3
             // 
@@ -453,9 +469,9 @@
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox3.Location = new System.Drawing.Point(558, 13);
+            this.groupBox3.Location = new System.Drawing.Point(558, 12);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(544, 54);
+            this.groupBox3.Size = new System.Drawing.Size(488, 54);
             this.groupBox3.TabIndex = 32;
             this.groupBox3.TabStop = false;
             // 
@@ -463,7 +479,7 @@
             // 
             this.LblIncorrect.AutoSize = true;
             this.LblIncorrect.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblIncorrect.Location = new System.Drawing.Point(420, 21);
+            this.LblIncorrect.Location = new System.Drawing.Point(391, 21);
             this.LblIncorrect.Name = "LblIncorrect";
             this.LblIncorrect.Size = new System.Drawing.Size(23, 25);
             this.LblIncorrect.TabIndex = 33;
@@ -483,7 +499,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(333, 21);
+            this.label4.Location = new System.Drawing.Point(304, 21);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 25);
             this.label4.TabIndex = 1;
@@ -504,7 +520,7 @@
             this.LinkLblNextQue.AutoSize = true;
             this.LinkLblNextQue.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.LinkLblNextQue.LinkColor = System.Drawing.Color.Black;
-            this.LinkLblNextQue.Location = new System.Drawing.Point(568, 401);
+            this.LinkLblNextQue.Location = new System.Drawing.Point(723, 401);
             this.LinkLblNextQue.Name = "LinkLblNextQue";
             this.LinkLblNextQue.Size = new System.Drawing.Size(158, 30);
             this.LinkLblNextQue.TabIndex = 33;
@@ -536,7 +552,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1140, 456);
+            this.ClientSize = new System.Drawing.Size(1059, 456);
             this.Controls.Add(this.LblQNo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.LinkLblNextQue);
